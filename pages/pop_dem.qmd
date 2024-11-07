@@ -1,0 +1,16 @@
+---
+title: "Population Demographics Data Sources"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+# What topics are we interested in?
+Population demographic data is critical for understanding the populations health systems serve. Demographic data sources can provide contextual information on topics such as:
+
+* The age and gender make-up of areas across the country.
+* Projections for how populations will grow and their make-up change in the future.
+* How does the provision of healthcare resources compare to where the populations who need these.
+
+Therefore, any transformation project will need to understand the population that is served and what is needed in the future. This section contains descriptions and links of the various demographic data sources that will be of use.
+
