@@ -1,0 +1,24 @@
+---
+title: "NHS Transformation Unit Data Sources"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# What does this website contain?
+This website contains information about data sources that are typically used across our projects. The purpose of the website is to provide you with an overview of available data, where to find it and how it can be used.
+
+# How can it be used?
+This website will be continually developed to add new data sources that are useful to be aware of for our projects. Use the navigation bar on the left hand side of the page to select a data source domain. The individual pages will provide information on:
+
+* The background to the data source. How is it curated? Who publishes it? How often?
+* Where the data can be accessed including links for publicly available datasets.
+* The types of questions that the data can help to answer and any limitations on its use.
+
+# Are we missing a data source?
+If you think that there is a useful source of data that we are missing then please let us know so that we can add this. You can either:
+
+* Speak to one of the analysts and we can chat about what to include.
+* If you are feeling brave, create yourself a [GitHub account](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) and add an **issue** to the [repository](https://github.com/NHS-Transformation-Unit/data_sources/issues).
