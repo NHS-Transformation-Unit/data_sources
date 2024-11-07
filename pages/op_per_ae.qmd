@@ -1,0 +1,48 @@
+---
+title: "A&E Performance"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# Data Source Description
+
+A&E attendances and emergency admission data contains aggregated totals for attendances in the specified period for all A&E types. Performance information is also included with a breakdown of patients waiting more than four hours in the department. A&E Waiting Times are a key measure within the [NHS Constitution](https://www.gov.uk/government/publications/the-nhs-constitution-for-england/the-nhs-constitution-for-england).
+
+Aggregated totals are published at the system and provider level for that reporting month. Attendances totals are also broken down between Type 1, 2 and 3 departments.
+
+## Publisher
+
+The data is published by NHS England from submissions from each provider of Urgent and Emergency care to NHS patients.
+
+::: {.callout-warning}
+
+Between May 2019 and May 2023 fourteen NHS Trusts undertook field testing of new UEC performance metrics and stopped reporting information on four hour performance. More information about the impact of CRS is available [here](https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2023/07/Impact-of-CRS-on-national-AE-timeseries.pdf).
+
+:::
+
+## Accessing the Data
+
+The datasets can be accessed via the NHS England Statistical Work Area [site](https://www.england.nhs.uk/statistics/statistical-work-areas/ae-waiting-times-and-activity/). The data is published in monthly files back to 2015-16.
+
+::: {.callout-warning}
+
+Prior to the end of Q1 2015/16 this data was published on a **weekly** basis.
+
+:::
+
+If you require time-series of A&E activity data spanning considerable months speak to one of the TU analysts about how this data can be extracted from another source. This is advisable rather than trying to stitch multiple Excel or csv files together.
+
+## Frequency of Publishing
+
+Data is published on a monthly basis typically on the 2nd Thursday of each month.
+
+# Using the Data
+
+The data can be used to answer and support questions such as:
+
+-   How many patients are attending each type of A&E department at a single provider over the last two years.
+-   How does performance against the four-hour waiting time standard vary across the country for the latest month.
+-   What proportion of patients attending a Type 1 A&E department are subsequently admitted as an emergency.

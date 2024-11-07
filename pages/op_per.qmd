@@ -1,0 +1,16 @@
+---
+title: "Operational and Performance Data Sources"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# What topics are we interested in?
+Understanding operational and performance challenges is often at the heart of any transformation project. Therefore, data sources on operational and performance issues can provide helpful context and support the development of a case for change. Topics of interest include:
+
+* Understanding the performance of A&E departments in achieving the four-hour standard. Monitoring and tracking performance against this standard over time.
+* Exploring elective waiting times and understanding how the backlog of elective care has changed since the pandemic.
+
+This section provides information and links to operational and performance datasets that may be of use.

@@ -1,0 +1,28 @@
+---
+title: "Population Estimates"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# Data Source Description
+National population estimates broken down into small geographic areas such as Super Output Areas, Integrated Care Boards by single year of age and sex.
+
+
+## Publisher
+Data is published by Office for National Statistics (ONS).
+
+## Accessing the Data
+Datasets for different geographies can be accessed from the main page of the [small area population estimates](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualsmallareapopulationestimates/mid2021andmid2022).
+
+## Frequency of Publishing
+The data is published by ONS to their timescales. The latest version of the data was published in March 2024 with no date yet provided for the next publication.
+
+# Using the Data
+The data can be used to explore issues such as:
+
+* Obtaining the latest population estimates for an ICB by age and sex.
+* Comparing the age distributions of two different populations such as neighbouring ICBs.
+* Linking activity rates to the populations to identify higher demand or usage of health resources across different geographies.

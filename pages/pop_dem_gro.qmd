@@ -1,0 +1,36 @@
+---
+title: "Population Growth Projections"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# Data Source Description
+Publications containing population estimates for different sub-national areas of England for a 25-year period. These publications are based of the latest projections from 2018. The next planned release is in March 2025.
+
+There are several different projections based on alternative migration variants used in the model. Data is available for persons, males, females, 5-year age bands and single year ages.
+
+::: {.callout-warning}
+
+Due to this data last being refreshed in March 2020 it is published at CCG level. Therefore, additional work to map the CCGs to ICBs or other health organisations may be required.
+
+:::
+
+
+## Publisher
+Data is published by Office for National Statistics (ONS).
+
+## Accessing the Data
+Datasets can be accessed from the sub-national population projections [site](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationprojections/bulletins/subnationalpopulationprojectionsforengland/2018based).
+
+## Frequency of Publishing
+The refreshing of projections is determined by ONS. The next release is scheduled for February to March 2025.
+
+# Using the Data
+The data can be used to explore issues such as:
+
+* How do the age demographics of an ICB compare to its neighbours or the rest of England?
+* How is the population of an ICB projected to change over the next 10-years? Which age-groups are expected to see the biggest changes?
+* Linking activity or demand datasets to population projections to predict future demand based on population changes.

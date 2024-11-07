@@ -1,0 +1,40 @@
+---
+title: "Referral to Treatment Waiting Times"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# Data Source Description
+Referral to Treatment **(RTT)** waiting times monitor the length of time from a referral to elective treatment for Consultant-led care. They form a key component of the [NHS Constitution](https://www.gov.uk/government/publications/the-nhs-constitution-for-england/the-nhs-constitution-for-england).
+
+The dataset contains aggregated counts of how long patients either waited for treatment that month or those who are still waiting at the end of each month. Published data contains:
+
+* __Incomplete Waiting Times__: Published from the Provider and Commissioner perspective. These datasets contain the number of patients who were still waiting for treatment at the end of each month. These aggregated totals are broken down into individual number of weeks waited and headline statistics on those waiting more than 18, 52, 78 and 65 weeks. The data is published showing the total number for each provider alongside a breakdown for the major [Treatment Functions](https://archive.datadictionary.nhs.uk/DD%20Release%20July%202022/attributes/treatment_function_code.html).
+
+* __Admitted Waiting Times__: Published from the Provider and Commissioner perspective. These datasets contain the number of patients on an RTT pathway that were treated in an admitted setting during the month. These are also often referred to as clock stops. These aggregated totals are broken down into individual number of weeks waited and headline statistics on those waiting more than 18, 52, 78 and 65 weeks. The data is published showing the total number for each provider alongside a breakdown for the major [Treatment Functions](https://archive.datadictionary.nhs.uk/DD%20Release%20July%202022/attributes/treatment_function_code.html).
+
+* __Non-Admitted Waiting Times__: Published from the Provider and Commissioner perspective. These datasets contain the number of patients on an RTT pathway that were treated in a non-admitted (i.e. outpatient) setting during the month. These are also often referred to as clock stops. These aggregated totals are broken down into individual number of weeks waited and headline statistics on those waiting more than 18, 52, 78 and 65 weeks. The data is published showing the total number for each provider alongside a breakdown for the major [Treatment Functions](https://archive.datadictionary.nhs.uk/DD%20Release%20July%202022/attributes/treatment_function_code.html).
+
+* __New RTT Periods__: Published from the Provider and Commissioner perspective. These datasets contain the number of new RTT clock starts during the month. The data is published showing the total number for each provider alongside a breakdown for the major [Treatment Functions](https://archive.datadictionary.nhs.uk/DD%20Release%20July%202022/attributes/treatment_function_code.html).
+
+## Publisher
+The data is published by NHS England with each provider of NHS elective care submitting data to them.
+
+## Accessing the Data
+The datasets can be accessed from the main [RTT page](https://www.england.nhs.uk/statistics/statistical-work-areas/rtt-waiting-times/) on the NHS England statistical work area. The data is published in monthly files with separate sub-pages for each financial year. Data is available on the NHS England website back to 2011/12 with previous years available through the national archives.
+
+If you require time-series of RTT data spanning considerable months speak to one of the TU analysts about how this data can be extracted from another source. This is advisable rather than trying to stitch multiple Excel or csv files together.
+
+
+## Frequency of Publishing
+Data is published on a monthly basis typically on the 2nd Thursday of each month.
+
+# Using the Data
+The data can be used to answer and support questions such as:
+
+* How long are patients waiting across a region or at a provider for elective care.
+* How much variability in waiting times for a particular specialty such as Trauma & Orthopaedics exists across the country.
+* How has the backlog of patients waiting for elective care changed since the end of the pandemic.
