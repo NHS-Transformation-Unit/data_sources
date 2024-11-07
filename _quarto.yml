@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  resources: tu_theme.css
 website: 
   title: "NHS Transformation Unit Data Sources"
   description: "Website providing an overview of available and typically used datasets on TU projects."
