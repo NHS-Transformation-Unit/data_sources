@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+website: 
+  title: "NHS Transformation Unit Data Sources"
+  description: "Website providing an overview of available and typically used datasets on TU projects."
+  favicon: images/TU_logo_large.png
+  sidebar:
+    style: "docked"
+    search: true
+    logo: images/TU_logo_large.png
+    tools: 
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://github.com/NHS-Transformation-Unit/data_sources
+          - text: Report a Bug
+            href:  https://github.com/NHS-Transformation-Unit/data_sources/issues
+    contents:
+      - text: "Introduction"
+        href: index.qmd
+      - section: "Population Demographics"
+        href: pages/pop_dem.qmd
+        contents:
+          - pages/pop_dem_est.qmd
+          - pages/pop_dem_gro.qmd
+      - section: "Operational & Performance"
+        href: pages/op_per.qmd
+        contents:
+          - pages/op_per_ae.qmd
+          - pages/op_per_rtt.qmd
+  page-footer: 
+    right:
+      - icon: github
+        href: https://github.com/NHS-Transformation-Unit
+      - icon: twitter
+        href: https://twitter.com/tu_nhs
+      - icon: linkedin
+        href: https://www.linkedin.com/company/transformationunit
+
+format:
+  html:
+    theme: tu_theme.css
