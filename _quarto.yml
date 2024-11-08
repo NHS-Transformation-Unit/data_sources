@@ -30,6 +30,7 @@ website:
         contents:
           - pages/op_per_ae.qmd
           - pages/op_per_rtt.qmd
+          - pages/op_per_can.qmd
   page-footer: 
     right:
       - icon: github
