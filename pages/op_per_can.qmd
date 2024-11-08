@@ -44,6 +44,6 @@ Data is published on a monthly basis typically on the 2nd Thursday of each month
 # Using the Data
 The data can be used to answer and support questions such as:
 
-* How long are patients waiting across a region or at a provider for elective care.
-* How much variability in waiting times for a particular specialty such as Trauma & Orthopaedics exists across the country.
-* How has the backlog of patients waiting for elective care changed since the end of the pandemic.
+* Is the NHS achieving the cancer waiting time standards?
+* How does performance against the standards compare across different providers within an ICB?
+* Are waiting times improving for Lung cancer treatments over the last two years?
