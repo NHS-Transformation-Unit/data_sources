@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: docs
-  resources: tu_theme.css
 website: 
   title: "NHS Transformation Unit Data Sources"
   description: "Website providing an overview of available and typically used datasets on TU projects."
@@ -31,6 +30,12 @@ website:
           - pages/op_per_ae.qmd
           - pages/op_per_rtt.qmd
           - pages/op_per_can.qmd
+      - section: "Activity"
+        href: pages/act.qmd
+        contents:
+          - pages/act_ecds.qmd
+          - pages/act_sus_apc.qmd
+          - pages/act_sus_opa.qmd
   page-footer: 
     right:
       - icon: github
