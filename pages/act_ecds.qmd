@@ -1,0 +1,49 @@
+---
+title: "Emergency Care Dataset (ECDS)"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# Data Source Description
+The Emergency Care Dataset (ECDS) is a national data set for urgent and emergency care. ECDS is designed to collected relevant information to understand capacity and demand to help improve patient care. ECDS collects information about why people attend emergency departments and the treatment they receive to:
+
+* improve patient care through better and more consistent information
+* Allow better planning of healthcare services
+* improve communication between health professionals
+
+NHS Digital have created a short [video](https://www.youtube.com/watch?v=mdXY2tWMgsE) about the ECDS.
+
+ECDS is a **record level** dataset which means that the data for each attendance to an Emergency Department or Urgent Treatment Centre is recorded as a single row in the relevant data tables. This ensures that bespoke, granular analysis can be undertaken.
+
+ECDS contains a large number of data items that are submitted by providers. These include information about:
+
+* When the patient attended, i.e. time of day, day of week etc.
+* How long the patient waited in the department. This includes the time they arrived, when they were triaged, when they were treated and when they were discharged.
+* The conditions a patient presented with as a chief complaint, diagnoses made in the ED, investigations carried out and treatments provided.
+* The outcome of the attendance, i.e. was the patient admitted, discharged etc.
+* How the patient arrived at the department and if they were referred by other healthcare professionals.
+
+The full specification containing the details of all the data items collected is available in the [Enhanced Technical Output Specification (ETOS)](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-sets/emergency-care-data-set-ecds/ecds-guidance). The latest version of ECDS is 4.0 (at the time of writing).
+
+::: {.callout-warning}
+There are changes between different versions of ECDS relating to the information that is collected. Therefore, some data items in ECDS won't appear in older data. As providers update systems to meet the new requirements of the latest version of ECDS there may be times when providers weren't submitting specific data items. Therefore, the data quality of data items needs to be checked before carrying out any longitudinal or comparative analysis.
+:::
+
+## Publisher
+NHS Digital (now part of NHS England) receives the ECDS submissions from providers delivering urgent and emergency care to NHS patients. The raw data used for analysis is not publicly available, however, NHS Digital publishes some analyses of ECDS. Their _[Hospital Accident & Emergency Activity, 2023-24](https://digital.nhs.uk/data-and-information/publications/statistical/hospital-accident--emergency-activity/2023-24/summary-report) provides an overview of activity reported from ECDS.
+
+## Accessing the Data
+ECDS data is stored and accessible within several repositories across the NHS for use by approved analysts. One of the analysts will be available to discuss any potential ECDS analysis.
+
+## Frequency of Publishing
+Some of the data tables contain flows of daily ECDS updates, typically 48-72 hours in arrears. However, these are subject to change so there are still also monthly ECDS submission data tables.
+
+# Using the Data
+The data can be used to answer and support questions such as:
+
+* What proportion of patients attending ED are admitted and how does this vary across Type 1 departments?
+* How many patients attend the ED with a Mental Health related presentation? How has the volume of attendances changed since the pandemic?
+* How does the time a patient will wait in the department to be triaged change depending on the hour of the day and day of the week they arrive?

@@ -1,0 +1,40 @@
+---
+title: "Outpatient Dataset"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# Data Source Description
+The Outpatient dataset is part of the **Secondary Users Services (SUS)** repository and contains information about outpatient appointments, either attended or cancelled. It covers all NHS and private outpatient activity taking place in any:
+
+* acute, community, mental health NHS Trust or NHS Foundation Trust
+* other NHS hospital
+* non-NHS hospitals or institutions where the care delivered is NHS-funded.
+
+The dataset contains information relating to an outpatient appointment covering topics such as:
+
+* Whether the appointment was attended, missed by the patient or cancelled (either by the patient or provider).
+* Any procedures that were undertaken as part of the outpatient appointment.
+* The demographics of the patient attending the appointment such as age, gender and ethnicity.
+* The medium used for the consultation such as face to face or telemedicine.
+
+More information about the outpatient dataset can be found within the [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_sets/cds_v6-2/cds_v6-2_type_020_-_outpatient_cds.html) or the [SUS SEM Extract Specification](https://digital.nhs.uk/binaries/content/assets/website-assets/services/sus/sus-guidance/sem_extract_specification-v-1.3.xlsx).
+
+## Publisher
+NHS Digital (now part of NHS England) receives the Outpatient submissions from providers delivering outpatient care to NHS patients. The raw data used for analysis is not publicly available, however, NHS Digital publishes some analyses of outpatient data. Their [Hospital Outpatient Activity, 2023-24](https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2023-24) provides an overview of activity reported in outpatients for 2023/24.
+
+## Accessing the Data
+Outpatient data is stored and accessible within several repositories across the NHS for use by approved analysts. One of the analysts will be available to discuss any potential analysis.
+
+## Frequency of Publishing
+Outpatients data is refreshed on a monthly basis usually with a two-month lag.
+
+# Using the Data
+The data can be used to answer and support questions such as:
+
+* How have activity rates for follow-up Gynaecology appointments changed since the pandemic?
+* How does the proportion of appointments that are delivered virtually within Trauma & Orthopaedics vary across England?
+* What factors are associated with higher DNA rates?
