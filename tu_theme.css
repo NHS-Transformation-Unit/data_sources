@@ -7,7 +7,6 @@ body {
     color: #333;
     font-family: 'Franklin Gothic', sans-serif;
     font-size: 11pt;
-    font-weight: 300;
 }
 
 /* Header Styles */
@@ -20,34 +19,7 @@ hr {
     border-color: #407EC9;
 }
 
-/* Navbar Styles */
-.navbar {
-    background-color: #407EC9;
-    border-color: #407EC9;
-    color: #fff;
-}
 
-/* Button Styles */
-.btn-primary {
-    background-color: #407EC9;
-    border-color: #407EC9;
-    color: #fff;
-}
-
-/* Sidebar Styles */
-.quarto-sidebar {
-    background-color: #f0f4f8; /* Set your desired background color here */
-    color: #F68D2E; /* Text color for sidebar */
-    padding: 15px; /* Optional padding for content spacing */
-}
-
-/* Optional: Sidebar Links */
-.quarto-sidebar a {
-    color: #F68D2E; /* Link color */
-    text-decoration: none;
-}
-
-.quarto-sidebar a:hover {
-    color: #F68D2E; /* Hover color */
-    text-decoration: underline;
+div.sidebar.sidebar-navigation.rollup.quarto-sidebar-toggle-contents, nav.sidebar.sidebar-navigation:not(.rollup) {
+    background-color: #40c1ac1a;
 }

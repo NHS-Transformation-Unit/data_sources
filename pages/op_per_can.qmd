@@ -1,0 +1,49 @@
+---
+title: "Cancer Waiting Times"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# Data Source Description
+Cancer waiting times are published to show the time patients spend waiting at different points of their pathway for diagnosis and treatment. They form a key component of the [NHS Constitution](https://www.gov.uk/government/publications/the-nhs-constitution-for-england/the-nhs-constitution-for-england).
+
+The data is published to show the number of patients waiting and performance against the:
+
+* __28-Day Fast Diagnosis Standard__: Patients should wait no more than 28 days from urgent referral for suspected cancer to a cancer diagnosis.
+* __31-Day Treatment Standard__: Patients should wait no more than 31 days from a Decision to Treat (DTT) to any first cancer treatment.
+* __62-Day Treatment Standard__: Patients should wait no more than 62 days from their referral or screening for cancer to commencing treatment.
+
+::: {.callout-warning}
+There have been changes to the national cancer standards in October 2023. Therefore, caution should be used when comparing cancer standards from periods before 2023. More information is available [here](https://www.england.nhs.uk/statistics/statistical-work-areas/cancer-waiting-times/). 
+
+:::
+
+The data contains the number of patients broken down between those treated/waiting less than the standard and the number who have breached it. This is broken down to:
+
+* Provider
+* Performance Standard (i.e. 62-Day)
+* Stage/Route (i.e. Urgent Suspected Cancer Referral, Screening)
+* Treatment Modality (i.e. Surgery, Radiotherapy)
+* Cancer Type (i.e Tumour site)
+
+## Publisher
+The data is published by NHS England with each provider of cancer services to NHS patients reporting.
+
+## Accessing the Data
+The datasets can be accessed from the main [Cancer Waiting Times](https://www.england.nhs.uk/statistics/statistical-work-areas/cancer-waiting-times/) page in the NHS England statistical work area. The data is published in files containing six-months of data. Older data relating to the old standards is available in financial year extracts to 2009/10.
+
+If you require time-series of cancer waiting times spanning considerable months speak to one of the TU analysts about how this data can be extracted from another source. This is advisable rather than trying to stitch multiple Excel or csv files together.
+
+
+## Frequency of Publishing
+Data is published on a monthly basis typically on the 2nd Thursday of each month.
+
+# Using the Data
+The data can be used to answer and support questions such as:
+
+* Is the NHS achieving the cancer waiting time standards?
+* How does performance against the standards compare across different providers within an ICB?
+* Are waiting times improving for Lung cancer treatments over the last two years?

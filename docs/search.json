@@ -7,6 +7,83 @@
     "text": "What does this website contain?\nThis website contains information about data sources that are typically used across our projects. The purpose of the website is to provide you with an overview of available data, where to find it and how it can be used.\n\n\nHow can it be used?\nThis website will be continually developed to add new data sources that are useful to be aware of for our projects. Use the navigation bar on the left hand side of the page to select a data source domain. The individual pages will provide information on:\n\nThe background to the data source. How is it curated? Who publishes it? How often?\nWhere the data can be accessed including links for publicly available datasets.\nThe types of questions that the data can help to answer and any limitations on its use.\n\n\n\nAre we missing a data source?\nIf you think that there is a useful source of data that we are missing then please let us know so that we can add this. You can either:\n\nSpeak to one of the analysts and we can chat about what to include.\nIf you are feeling brave, create yourself a GitHub account and add an issue to the repository."
   },
   {
+    "objectID": "pages/act.html",
+    "href": "pages/act.html",
+    "title": "Activity Datasets",
+    "section": "",
+    "text": "What topics are we interested in?\nAnalysing activity within different care settings is important to many of the projects that we work on. Routinely collected activity datasets enable detailed analysis and modelling on topics such as:\n\nWho is attending Emergency Departments and Urgent Care Centres? What conditions are they presenting with and how have these presentations changed over time?\nWho is admitted to a hospital bed? What proportion of this activity is non-elective? What conditions are people admitted with and what treatment do they receive whilst an inpatient?\nHow many patients are being seen in outpatient clinics? What treatment are these patients receiving as part of the consultation? How many don’t attend and what happens to them after the appointment?\nHow many patients are referred to Mental Health services? Which teams are these patients referred to and are they seen within an outpatient or inpatient setting?"
+  },
+  {
+    "objectID": "pages/act_ecds.html#publisher",
+    "href": "pages/act_ecds.html#publisher",
+    "title": "Emergency Care Dataset (ECDS)",
+    "section": "Publisher",
+    "text": "Publisher\nNHS Digital (now part of NHS England) receives the ECDS submissions from providers delivering urgent and emergency care to NHS patients. The raw data used for analysis is not publicly available, however, NHS Digital publishes some analyses of ECDS. Their _Hospital Accident & Emergency Activity, 2023-24 provides an overview of activity reported from ECDS."
+  },
+  {
+    "objectID": "pages/act_ecds.html#accessing-the-data",
+    "href": "pages/act_ecds.html#accessing-the-data",
+    "title": "Emergency Care Dataset (ECDS)",
+    "section": "Accessing the Data",
+    "text": "Accessing the Data\nECDS data is stored and accessible within several repositories across the NHS for use by approved analysts. One of the analysts will be available to discuss any potential ECDS analysis."
+  },
+  {
+    "objectID": "pages/act_ecds.html#frequency-of-publishing",
+    "href": "pages/act_ecds.html#frequency-of-publishing",
+    "title": "Emergency Care Dataset (ECDS)",
+    "section": "Frequency of Publishing",
+    "text": "Frequency of Publishing\nSome of the data tables contain flows of daily ECDS updates, typically 48-72 hours in arrears. However, these are subject to change so there are still also monthly ECDS submission data tables."
+  },
+  {
+    "objectID": "pages/act_sus_apc.html#spells-and-episodes",
+    "href": "pages/act_sus_apc.html#spells-and-episodes",
+    "title": "Admitted Patient Care Dataset",
+    "section": "Spells and Episodes",
+    "text": "Spells and Episodes\n\nA Hospital Provider Spell is the total continuous stay of a PATIENT using a Hospital Bed on premises controlled by a Health Care Provider during which medical care is the responsibility of one or more CONSULTANTS, or the PATIENT is receiving care under one or more Nursing Episodes or Midwife Episodes in a WARD. NHS Data Dictionary\nA Consultant Episode (Hospital Provider) is the time a PATIENT spends in the continuous care of one CONSULTANT using Hospital Site or Care Home bed(s) of one Health Care Provider or, in the case of shared care, in the care of two or more CONSULTANTS. NHS Data Dictionary\n\nTherefore, a spell covers the period of care between the patient being admitted and discharged and consists of one or more episodes depending on the care they receive during that spell. The figure below shows three example hospital spells:\n\n \nIn the first example a patient has been admitted on 12/11/2023 until they are discharged on 17/11/2023. During the admission they are under the care of a single consultant within General Surgery. Therefore, the entire spell was constructed from a single episode. Each episode of care will also have a diagnoses codes recorded against them. The primary diagnosis code in this case was K740 - Hepatic Fibrosis.\nIn the second example, the patient was admitted on 12/11/2023 initially under the care of a consultant in General Surgery. They were diagnosed with unspecified liver disease (K769). The next day the patient was transferred to a consultant in Hepatobiliary & Pancreatic Surgery. There diagnosis was updated to K740 - Hepatic Fibrosis and they remained under the care of this consultant until their discharge on 16/11/2023.\nIn the final example, the patient is transferred a day after admission to Hepatobiliary & Pancreatic Surgery. Here they are diagnosed with Hepatic Fibrosis. Subsequently, they have a third episode of care under a Respiratory consultant where they are primarily treated for influenza."
+  },
+  {
+    "objectID": "pages/act_sus_apc.html#publisher",
+    "href": "pages/act_sus_apc.html#publisher",
+    "title": "Admitted Patient Care Dataset",
+    "section": "Publisher",
+    "text": "Publisher\nNHS Digital (now part of NHS England) receives the APCS submissions from providers delivering inpatient care to NHS patients. The raw data used for analysis is not publicly available, however, NHS Digital publishes some analyses of APC. Their Hospital Admitted Patient Care Activity, 2023-24 provides an overview of activity reported in APC."
+  },
+  {
+    "objectID": "pages/act_sus_apc.html#accessing-the-data",
+    "href": "pages/act_sus_apc.html#accessing-the-data",
+    "title": "Admitted Patient Care Dataset",
+    "section": "Accessing the Data",
+    "text": "Accessing the Data\nAPC data is stored and accessible within several repositories across the NHS for use by approved analysts. One of the analysts will be available to discuss any potential analysis."
+  },
+  {
+    "objectID": "pages/act_sus_apc.html#frequency-of-publishing",
+    "href": "pages/act_sus_apc.html#frequency-of-publishing",
+    "title": "Admitted Patient Care Dataset",
+    "section": "Frequency of Publishing",
+    "text": "Frequency of Publishing\nSome of the data tables contain flows of daily APC updates, typically 48-72 hours in arrears. However, these are subject to change so there are still also monthly APC submission data tables. These will typically be the most appropriate source of data for our projects."
+  },
+  {
+    "objectID": "pages/act_sus_opa.html#publisher",
+    "href": "pages/act_sus_opa.html#publisher",
+    "title": "Outpatient Dataset",
+    "section": "Publisher",
+    "text": "Publisher\nNHS Digital (now part of NHS England) receives the Outpatient submissions from providers delivering outpatient care to NHS patients. The raw data used for analysis is not publicly available, however, NHS Digital publishes some analyses of outpatient data. Their Hospital Outpatient Activity, 2023-24 provides an overview of activity reported in outpatients for 2023/24."
+  },
+  {
+    "objectID": "pages/act_sus_opa.html#accessing-the-data",
+    "href": "pages/act_sus_opa.html#accessing-the-data",
+    "title": "Outpatient Dataset",
+    "section": "Accessing the Data",
+    "text": "Accessing the Data\nOutpatient data is stored and accessible within several repositories across the NHS for use by approved analysts. One of the analysts will be available to discuss any potential analysis."
+  },
+  {
+    "objectID": "pages/act_sus_opa.html#frequency-of-publishing",
+    "href": "pages/act_sus_opa.html#frequency-of-publishing",
+    "title": "Outpatient Dataset",
+    "section": "Frequency of Publishing",
+    "text": "Frequency of Publishing\nOutpatients data is refreshed on a monthly basis usually with a two-month lag."
+  },
+  {
     "objectID": "pages/op_per.html",
     "href": "pages/op_per.html",
     "title": "Operational and Performance Data Sources",
@@ -31,6 +108,27 @@
     "objectID": "pages/op_per_ae.html#frequency-of-publishing",
     "href": "pages/op_per_ae.html#frequency-of-publishing",
     "title": "A&E Performance",
+    "section": "Frequency of Publishing",
+    "text": "Frequency of Publishing\nData is published on a monthly basis typically on the 2nd Thursday of each month."
+  },
+  {
+    "objectID": "pages/op_per_can.html#publisher",
+    "href": "pages/op_per_can.html#publisher",
+    "title": "Cancer Waiting Times",
+    "section": "Publisher",
+    "text": "Publisher\nThe data is published by NHS England with each provider of cancer services to NHS patients reporting."
+  },
+  {
+    "objectID": "pages/op_per_can.html#accessing-the-data",
+    "href": "pages/op_per_can.html#accessing-the-data",
+    "title": "Cancer Waiting Times",
+    "section": "Accessing the Data",
+    "text": "Accessing the Data\nThe datasets can be accessed from the main Cancer Waiting Times page in the NHS England statistical work area. The data is published in files containing six-months of data. Older data relating to the old standards is available in financial year extracts to 2009/10.\nIf you require time-series of cancer waiting times spanning considerable months speak to one of the TU analysts about how this data can be extracted from another source. This is advisable rather than trying to stitch multiple Excel or csv files together."
+  },
+  {
+    "objectID": "pages/op_per_can.html#frequency-of-publishing",
+    "href": "pages/op_per_can.html#frequency-of-publishing",
+    "title": "Cancer Waiting Times",
     "section": "Frequency of Publishing",
     "text": "Frequency of Publishing\nData is published on a monthly basis typically on the 2nd Thursday of each month."
   },

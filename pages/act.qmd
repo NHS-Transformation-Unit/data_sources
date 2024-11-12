@@ -1,0 +1,19 @@
+---
+title: "Activity Datasets"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+### What topics are we interested in?
+Analysing activity within different care settings is important to many of the projects that we work on. Routinely collected activity datasets enable detailed analysis and modelling on topics such as:
+
+* Who is attending Emergency Departments and Urgent Care Centres? What conditions are they presenting with and how have these presentations changed over time?
+
+* Who is admitted to a hospital bed? What proportion of this activity is non-elective? What conditions are people admitted with and what treatment do they receive whilst an inpatient?
+
+* How many patients are being seen in outpatient clinics? What treatment are these patients receiving as part of the consultation? How many don't attend and what happens to them after the appointment?
+
+* How many patients are referred to Mental Health services? Which teams are these patients referred to and are they seen within an outpatient or inpatient setting?
