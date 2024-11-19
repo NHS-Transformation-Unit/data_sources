@@ -1,0 +1,35 @@
+---
+title: "Quality Outcomes Framework (QOF)"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# Data Source Description
+The Quality Outcomes Framework (QOF) is a voluntary annual reward and incentive programme for all GP practices in England and provides details of practices achievements against standards. The annual QOF publications contain information on disease prevalence which are often used as an estimate of the health needs of a population. More information about QOF including its payment system, the conditions included and indicators can be found [here](https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data/2023-24).
+
+::: {.callout-warning}
+The estimates of prevalence are based on patients with a relevant diagnosis on a GP Practice system. Therefore, this will only include patients **known** to have the condition and so prevalence estimates may underestimate the true prevalence within the population.
+
+:::
+
+The data is published at GP practice, sub-ICB, ICB, regional and national level.
+
+## Publisher
+
+NHS Digital (now part of NHS England) publishes QOF data following submissions by each GP Practice within England. More information on the publications can be found [here](https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data).
+
+## Accessing the Data
+The data is publicly available on the NHS Digital website under the relevant year's publication. Data for each year can be accessed [here](https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-data).
+
+## Frequency of Publishing
+QOF data is published annually, typically in September/October for the previous financial year.
+
+# Using the Data
+QOF data can be used to answer and support questions such as:
+
+* How does the prevalence of Dementia vary across ICBs in England?
+* How many patients are on a register for Hypertension in Greater Manchester?
+* What percentage of patients with asthma have had an asthma review in the last 12 months? How does this vary across the country?
