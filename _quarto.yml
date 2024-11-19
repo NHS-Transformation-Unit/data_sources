@@ -36,6 +36,11 @@ website:
           - pages/act_ecds.qmd
           - pages/act_sus_apc.qmd
           - pages/act_sus_opa.qmd
+      - section: "Population Health"
+        href: pages/phm.qmd
+        contents:
+          - pages/phm_fingertips.qmd
+          - pages/phm_qof.qmd
   page-footer: 
     right:
       - icon: github

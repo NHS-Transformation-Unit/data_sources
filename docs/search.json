@@ -154,6 +154,55 @@
     "text": "Frequency of Publishing\nData is published on a monthly basis typically on the 2nd Thursday of each month."
   },
   {
+    "objectID": "pages/phm.html",
+    "href": "pages/phm.html",
+    "title": "Population Health",
+    "section": "",
+    "text": "What topics are we interested in?\nUnderstanding the health and the needs of wider populations is critical to planning the services required both now and in the future. There are a number of publicly available datasets that describe the health needs, outcomes and disparities across different populations and conditions. Topics of interest include:\n\nUnderstanding differences in mortality rates across England. What are the differences across regions? How has this changed over time? Are gaps widening in specific conditions such as Cancer?\nHow many patients are living with a condition such as Heart Failure or Atrial Fibrillation? How does this vary across different geographic areas and compare with admission rates?\nHow has the prevalence of dementia changed over recent years and are we diagnosing as many cases as expected? Are people living with Dementia having their care plan reviewed in a timely manner?"
+  },
+  {
+    "objectID": "pages/phm_fingertips.html#publisher",
+    "href": "pages/phm_fingertips.html#publisher",
+    "title": "Fingertips",
+    "section": "Publisher",
+    "text": "Publisher\nFingertips profiles are published by The Department of Health and Social Care. However, the profiles contain data from a wide variety of sources. You can find the specific publication details for each metric from the Definition option unde the Data view drop-down."
+  },
+  {
+    "objectID": "pages/phm_fingertips.html#accessing-the-data",
+    "href": "pages/phm_fingertips.html#accessing-the-data",
+    "title": "Fingertips",
+    "section": "Accessing the Data",
+    "text": "Accessing the Data\nThe profiles can be accessed at here. Data can then be manually downloaded in a .csv format for individual indicators. There is also a Fingertips API for extracting data more efficiently in either JSON or CSV format. Of particular use is the R package - fingertipsR which can be used to access the data."
+  },
+  {
+    "objectID": "pages/phm_fingertips.html#frequency-of-publishing",
+    "href": "pages/phm_fingertips.html#frequency-of-publishing",
+    "title": "Fingertips",
+    "section": "Frequency of Publishing",
+    "text": "Frequency of Publishing\nThe profiles are refreshed when new data is available so are updated on a regular basis. However, some metrics, such as mortality or outcomes, may be published with significant lags."
+  },
+  {
+    "objectID": "pages/phm_qof.html#publisher",
+    "href": "pages/phm_qof.html#publisher",
+    "title": "Quality Outcomes Framework (QOF)",
+    "section": "Publisher",
+    "text": "Publisher\nNHS Digital (now part of NHS England) publishes QOF data following submissions by each GP Practice within England. More information on the publications can be found here."
+  },
+  {
+    "objectID": "pages/phm_qof.html#accessing-the-data",
+    "href": "pages/phm_qof.html#accessing-the-data",
+    "title": "Quality Outcomes Framework (QOF)",
+    "section": "Accessing the Data",
+    "text": "Accessing the Data\nThe data is publicly available on the NHS Digital website under the relevant year’s publication. Data for each year can be accessed here."
+  },
+  {
+    "objectID": "pages/phm_qof.html#frequency-of-publishing",
+    "href": "pages/phm_qof.html#frequency-of-publishing",
+    "title": "Quality Outcomes Framework (QOF)",
+    "section": "Frequency of Publishing",
+    "text": "Frequency of Publishing\nQOF data is published annually, typically in September/October for the previous financial year."
+  },
+  {
     "objectID": "pages/pop_dem.html",
     "href": "pages/pop_dem.html",
     "title": "Population Demographics Data Sources",

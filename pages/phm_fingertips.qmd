@@ -1,0 +1,40 @@
+---
+title: "Fingertips"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# Data Source Description
+Fingertips is a large public health data collection with the data organised into themed profiles. These profiles include topics such as:
+
+* Alcohol
+* Child and Maternal Health
+* Diabetes
+* Respiratory Disease
+
+The full list of profiles is available on the Fingertips website [here](https://fingertips.phe.org.uk/profiles).
+
+The data is published at a variety of different geographic breakdowns such as regions, local authorities and ICBs.
+
+::: {.callout-note}
+Please note that not all indicators will be available for each geographic area type. I.e. data published at regional level may not be available at ICB level.
+:::
+
+## Publisher
+Fingertips profiles are published by The Department of Health and Social Care. However, the profiles contain data from a wide variety of sources. You can find the specific publication details for each metric from the **Definition** option unde the **Data view** drop-down.
+
+## Accessing the Data
+The profiles can be accessed at [here](https://fingertips.phe.org.uk/profiles). Data can then be manually downloaded in a `.csv` format for individual indicators. There is also a Fingertips API for extracting data more efficiently in either `JSON` or `CSV` format. Of particular use is the R package - [fingertipsR](https://github.com/ropensci/fingertipsR) which can be used to access the data.
+
+## Frequency of Publishing
+The profiles are refreshed when new data is available so are updated on a regular basis. However, some metrics, such as mortality or outcomes, may be published with significant lags.
+
+# Using the Data
+Fingertips can be useful for answering questions such as:
+
+* How has mortality for pneumonia changed across England over the last 10 years?
+* How does the prevalence of obesity in children vary across ICBs in England?
+* How does the prevalence of diabetes vary across GP practices in South Yorkshire?

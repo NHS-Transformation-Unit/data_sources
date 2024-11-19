@@ -1,0 +1,17 @@
+---
+title: "Population Health"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# What topics are we interested in?
+Understanding the health and the needs of wider populations is critical to planning the services required both now and in the future. There are a number of publicly available datasets that describe the health needs, outcomes and disparities across different populations and conditions. Topics of interest include:
+
+* Understanding differences in mortality rates across England. What are the differences across regions? How has this changed over time? Are gaps widening in specific conditions such as Cancer?
+
+* How many patients are living with a condition such as Heart Failure or Atrial Fibrillation? How does this vary across different geographic areas and compare with admission rates?
+
+* How has the prevalence of dementia changed over recent years and are we diagnosing as many cases as expected? Are people living with Dementia having their care plan reviewed in a timely manner?
