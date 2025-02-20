@@ -1,0 +1,23 @@
+name: Data Source Request
+description: Request that a new data source is added to the site.
+title: "[Data Request]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+      Please use this form to describe the data source that you would like adding.
+  - type: input
+    id: contact
+    attributes:
+      label: Name
+      description: Please enter your name so that we can discuss this further with you if required.
+    validations:
+      required: true
+  - type: textarea
+    id: data-source
+    attributes:
+      label: What is the data source you would like adding?
+      description: Please describe the data source that you would like adding, why and any useful links.
+      placeholder: Describe the data source!
+      
