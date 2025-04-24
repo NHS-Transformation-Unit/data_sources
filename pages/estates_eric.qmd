@@ -1,0 +1,33 @@
+---
+title: "Estates Return Information Collection"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# Data Source Description
+Estates Return Information Collection (ERIC) data is Trust and site level estates data, categorising metrics regarding costs associated with, physical attributes of and purposes of specified estates.
+
+
+## Publisher
+Data is published by NHS Digital.
+
+## Accessing the Data
+The latest and historic publications of the ERIC dataset can be found on the [Estates Returns Information Collection](https://digital.nhs.uk/data-and-information/publications/statistical/estates-returns-information-collection) page of NHS Digital.
+
+## Frequency of Publishing
+The data is published by NHS Digital annually. The data is in reference to a financial year and is typically available by the end of the subsequent Quarter 3.
+
+# Using the Data
+The data can be used to explore issues relating to specific trusts and estate sizes:
+
+* Obtaining the latest population estimates for an ICB by age and sex.
+* Comparing the age distributions of two different populations such as neighbouring ICBs.
+* Linking activity rates to the populations to identify higher demand or usage of health resources across different geographies.
+
+::: {.callout-warning}
+Data is only available for Secondary Care and Ambulance Trusts. There is a also a size limit to what is reported at a site level, what is aggregated to an "Other Reportable Sites" group and what is not reported. Further details are available in the publication specific data definitions export, such as the [2023/24 ERIC publication](https://files.digital.nhs.uk/5D/32F8A4/ERIC%20-%202023_24%20-%20Data%20Definitions.xlsx).
+
+:::
