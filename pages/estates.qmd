@@ -1,0 +1,15 @@
+---
+title: "Estates"
+toc: true
+toc-location: right
+toc-depth: 2
+---
+
+***
+
+# What topics are we interested in?
+The quality, quantity and expanse of the estates owned by a provider is critical for understanding the financial pressures of running the space to deliver care. There is one publicly available dataset that describes the estates of providers, including investment to reduce infrastructure risks, cost of energy consumption, age of buildings and incidents related to infrastructure. Topics of interest include:
+
+* How many parking spaces does a site have? Are any of these charging points for electric vehicles? What is the charging cost to staff?
+
+* Which sites require the most investment to bring them up to standard? Can this cost be compared to the cost of a new building? 
