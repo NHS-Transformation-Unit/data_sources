@@ -4,251 +4,433 @@
     "href": "index.html",
     "title": "NHS Transformation Unit Data Sources",
     "section": "",
-    "text": "What does this website contain?\nThis website contains information about data sources that are typically used across our projects. The purpose of the website is to provide you with an overview of available data, where to find it and how it can be used.\n\n\nHow can it be used?\nThis website will be continually developed to add new data sources that are useful to be aware of for our projects. Use the navigation bar on the left hand side of the page to select a data source domain. The individual pages will provide information on:\n\nThe background to the data source. How is it curated? Who publishes it? How often?\nWhere the data can be accessed including links for publicly available datasets.\nThe types of questions that the data can help to answer and any limitations on its use.\n\n\n\nAre we missing a data source?\nIf you think that there is a useful source of data that we are missing then please let us know so that we can add this. You can either:\n\nSpeak to one of the analysts and we can chat about what to include.\nIf you are feeling brave, create yourself a GitHub account and add an issue to the repository."
+    "text": "What does this website contain?\nThis website contains information about data sources that are typically used across our projects. The purpose of the website is to provide you with an overview of available data, where to find it and how it can be used.\n\n\nHow can it be used?\nThis website will be continually developed to add new data sources that are useful to be aware of for our projects. Use the navigation bar on the left hand side of the page to select a data source domain. The individual pages will provide information on:\n\nThe background to the data source. How is it curated? Who publishes it? How often?\nWhere the data can be accessed including links for publicly available datasets.\nThe types of questions that the data can help to answer and any limitations on its use.\n\n\n\nAre we missing a data source?\nIf you think that there is a useful source of data that we are missing then please let us know so that we can add this. You can either:\n\nSpeak to one of the analysts and we can chat about what to include.\nIf you are feeling brave, create yourself a GitHub account and add an issue to the repository.",
+    "crumbs": [
+      "Introduction"
+    ]
   },
   {
     "objectID": "pages/act.html",
     "href": "pages/act.html",
     "title": "Activity Datasets",
     "section": "",
-    "text": "What topics are we interested in?\nAnalysing activity within different care settings is important to many of the projects that we work on. Routinely collected activity datasets enable detailed analysis and modelling on topics such as:\n\nWho is attending Emergency Departments and Urgent Care Centres? What conditions are they presenting with and how have these presentations changed over time?\nWho is admitted to a hospital bed? What proportion of this activity is non-elective? What conditions are people admitted with and what treatment do they receive whilst an inpatient?\nHow many patients are being seen in outpatient clinics? What treatment are these patients receiving as part of the consultation? How many don’t attend and what happens to them after the appointment?\nHow many patients are referred to Mental Health services? Which teams are these patients referred to and are they seen within an outpatient or inpatient setting?"
+    "text": "What topics are we interested in?\nAnalysing activity within different care settings is important to many of the projects that we work on. Routinely collected activity datasets enable detailed analysis and modelling on topics such as:\n\nWho is attending Emergency Departments and Urgent Care Centres? What conditions are they presenting with and how have these presentations changed over time?\nWho is admitted to a hospital bed? What proportion of this activity is non-elective? What conditions are people admitted with and what treatment do they receive whilst an inpatient?\nHow many patients are being seen in outpatient clinics? What treatment are these patients receiving as part of the consultation? How many don’t attend and what happens to them after the appointment?\nHow many patients are referred to Mental Health services? Which teams are these patients referred to and are they seen within an outpatient or inpatient setting?",
+    "crumbs": [
+      "Activity"
+    ]
   },
   {
     "objectID": "pages/act_ecds.html#publisher",
     "href": "pages/act_ecds.html#publisher",
     "title": "Emergency Care Dataset (ECDS)",
     "section": "Publisher",
-    "text": "Publisher\nNHS Digital (now part of NHS England) receives the ECDS submissions from providers delivering urgent and emergency care to NHS patients. The raw data used for analysis is not publicly available, however, NHS Digital publishes some analyses of ECDS. Their _Hospital Accident & Emergency Activity, 2023-24 provides an overview of activity reported from ECDS."
+    "text": "Publisher\nNHS Digital (now part of NHS England) receives the ECDS submissions from providers delivering urgent and emergency care to NHS patients. The raw data used for analysis is not publicly available, however, NHS Digital publishes some analyses of ECDS. Their _Hospital Accident & Emergency Activity, 2023-24 provides an overview of activity reported from ECDS.",
+    "crumbs": [
+      "Activity",
+      "Emergency Care Dataset (ECDS)"
+    ]
   },
   {
     "objectID": "pages/act_ecds.html#accessing-the-data",
     "href": "pages/act_ecds.html#accessing-the-data",
     "title": "Emergency Care Dataset (ECDS)",
     "section": "Accessing the Data",
-    "text": "Accessing the Data\nECDS data is stored and accessible within several repositories across the NHS for use by approved analysts. One of the analysts will be available to discuss any potential ECDS analysis."
+    "text": "Accessing the Data\nECDS data is stored and accessible within several repositories across the NHS for use by approved analysts. One of the analysts will be available to discuss any potential ECDS analysis.",
+    "crumbs": [
+      "Activity",
+      "Emergency Care Dataset (ECDS)"
+    ]
   },
   {
     "objectID": "pages/act_ecds.html#frequency-of-publishing",
     "href": "pages/act_ecds.html#frequency-of-publishing",
     "title": "Emergency Care Dataset (ECDS)",
     "section": "Frequency of Publishing",
-    "text": "Frequency of Publishing\nSome of the data tables contain flows of daily ECDS updates, typically 48-72 hours in arrears. However, these are subject to change so there are still also monthly ECDS submission data tables."
+    "text": "Frequency of Publishing\nSome of the data tables contain flows of daily ECDS updates, typically 48-72 hours in arrears. However, these are subject to change so there are still also monthly ECDS submission data tables.",
+    "crumbs": [
+      "Activity",
+      "Emergency Care Dataset (ECDS)"
+    ]
   },
   {
     "objectID": "pages/act_sus_apc.html#spells-and-episodes",
     "href": "pages/act_sus_apc.html#spells-and-episodes",
     "title": "Admitted Patient Care Dataset",
     "section": "Spells and Episodes",
-    "text": "Spells and Episodes\n\nA Hospital Provider Spell is the total continuous stay of a PATIENT using a Hospital Bed on premises controlled by a Health Care Provider during which medical care is the responsibility of one or more CONSULTANTS, or the PATIENT is receiving care under one or more Nursing Episodes or Midwife Episodes in a WARD. NHS Data Dictionary\nA Consultant Episode (Hospital Provider) is the time a PATIENT spends in the continuous care of one CONSULTANT using Hospital Site or Care Home bed(s) of one Health Care Provider or, in the case of shared care, in the care of two or more CONSULTANTS. NHS Data Dictionary\n\nTherefore, a spell covers the period of care between the patient being admitted and discharged and consists of one or more episodes depending on the care they receive during that spell. The figure below shows three example hospital spells:\n\n \nIn the first example a patient has been admitted on 12/11/2023 until they are discharged on 17/11/2023. During the admission they are under the care of a single consultant within General Surgery. Therefore, the entire spell was constructed from a single episode. Each episode of care will also have a diagnoses codes recorded against them. The primary diagnosis code in this case was K740 - Hepatic Fibrosis.\nIn the second example, the patient was admitted on 12/11/2023 initially under the care of a consultant in General Surgery. They were diagnosed with unspecified liver disease (K769). The next day the patient was transferred to a consultant in Hepatobiliary & Pancreatic Surgery. There diagnosis was updated to K740 - Hepatic Fibrosis and they remained under the care of this consultant until their discharge on 16/11/2023.\nIn the final example, the patient is transferred a day after admission to Hepatobiliary & Pancreatic Surgery. Here they are diagnosed with Hepatic Fibrosis. Subsequently, they have a third episode of care under a Respiratory consultant where they are primarily treated for influenza."
+    "text": "Spells and Episodes\n\nA Hospital Provider Spell is the total continuous stay of a PATIENT using a Hospital Bed on premises controlled by a Health Care Provider during which medical care is the responsibility of one or more CONSULTANTS, or the PATIENT is receiving care under one or more Nursing Episodes or Midwife Episodes in a WARD. NHS Data Dictionary\nA Consultant Episode (Hospital Provider) is the time a PATIENT spends in the continuous care of one CONSULTANT using Hospital Site or Care Home bed(s) of one Health Care Provider or, in the case of shared care, in the care of two or more CONSULTANTS. NHS Data Dictionary\n\nTherefore, a spell covers the period of care between the patient being admitted and discharged and consists of one or more episodes depending on the care they receive during that spell. The figure below shows three example hospital spells:\n\n \nIn the first example a patient has been admitted on 12/11/2023 until they are discharged on 17/11/2023. During the admission they are under the care of a single consultant within General Surgery. Therefore, the entire spell was constructed from a single episode. Each episode of care will also have a diagnoses codes recorded against them. The primary diagnosis code in this case was K740 - Hepatic Fibrosis.\nIn the second example, the patient was admitted on 12/11/2023 initially under the care of a consultant in General Surgery. They were diagnosed with unspecified liver disease (K769). The next day the patient was transferred to a consultant in Hepatobiliary & Pancreatic Surgery. There diagnosis was updated to K740 - Hepatic Fibrosis and they remained under the care of this consultant until their discharge on 16/11/2023.\nIn the final example, the patient is transferred a day after admission to Hepatobiliary & Pancreatic Surgery. Here they are diagnosed with Hepatic Fibrosis. Subsequently, they have a third episode of care under a Respiratory consultant where they are primarily treated for influenza.",
+    "crumbs": [
+      "Activity",
+      "Admitted Patient Care Dataset"
+    ]
   },
   {
     "objectID": "pages/act_sus_apc.html#publisher",
     "href": "pages/act_sus_apc.html#publisher",
     "title": "Admitted Patient Care Dataset",
     "section": "Publisher",
-    "text": "Publisher\nNHS Digital (now part of NHS England) receives the APCS submissions from providers delivering inpatient care to NHS patients. The raw data used for analysis is not publicly available, however, NHS Digital publishes some analyses of APC. Their Hospital Admitted Patient Care Activity, 2023-24 provides an overview of activity reported in APC."
+    "text": "Publisher\nNHS Digital (now part of NHS England) receives the APCS submissions from providers delivering inpatient care to NHS patients. The raw data used for analysis is not publicly available, however, NHS Digital publishes some analyses of APC. Their Hospital Admitted Patient Care Activity, 2023-24 provides an overview of activity reported in APC.",
+    "crumbs": [
+      "Activity",
+      "Admitted Patient Care Dataset"
+    ]
   },
   {
     "objectID": "pages/act_sus_apc.html#accessing-the-data",
     "href": "pages/act_sus_apc.html#accessing-the-data",
     "title": "Admitted Patient Care Dataset",
     "section": "Accessing the Data",
-    "text": "Accessing the Data\nAPC data is stored and accessible within several repositories across the NHS for use by approved analysts. One of the analysts will be available to discuss any potential analysis."
+    "text": "Accessing the Data\nAPC data is stored and accessible within several repositories across the NHS for use by approved analysts. One of the analysts will be available to discuss any potential analysis.",
+    "crumbs": [
+      "Activity",
+      "Admitted Patient Care Dataset"
+    ]
   },
   {
     "objectID": "pages/act_sus_apc.html#frequency-of-publishing",
     "href": "pages/act_sus_apc.html#frequency-of-publishing",
     "title": "Admitted Patient Care Dataset",
     "section": "Frequency of Publishing",
-    "text": "Frequency of Publishing\nSome of the data tables contain flows of daily APC updates, typically 48-72 hours in arrears. However, these are subject to change so there are still also monthly APC submission data tables. These will typically be the most appropriate source of data for our projects."
+    "text": "Frequency of Publishing\nSome of the data tables contain flows of daily APC updates, typically 48-72 hours in arrears. However, these are subject to change so there are still also monthly APC submission data tables. These will typically be the most appropriate source of data for our projects.",
+    "crumbs": [
+      "Activity",
+      "Admitted Patient Care Dataset"
+    ]
   },
   {
     "objectID": "pages/act_sus_opa.html#publisher",
     "href": "pages/act_sus_opa.html#publisher",
     "title": "Outpatient Dataset",
     "section": "Publisher",
-    "text": "Publisher\nNHS Digital (now part of NHS England) receives the Outpatient submissions from providers delivering outpatient care to NHS patients. The raw data used for analysis is not publicly available, however, NHS Digital publishes some analyses of outpatient data. Their Hospital Outpatient Activity, 2023-24 provides an overview of activity reported in outpatients for 2023/24."
+    "text": "Publisher\nNHS Digital (now part of NHS England) receives the Outpatient submissions from providers delivering outpatient care to NHS patients. The raw data used for analysis is not publicly available, however, NHS Digital publishes some analyses of outpatient data. Their Hospital Outpatient Activity, 2023-24 provides an overview of activity reported in outpatients for 2023/24.",
+    "crumbs": [
+      "Activity",
+      "Outpatient Dataset"
+    ]
   },
   {
     "objectID": "pages/act_sus_opa.html#accessing-the-data",
     "href": "pages/act_sus_opa.html#accessing-the-data",
     "title": "Outpatient Dataset",
     "section": "Accessing the Data",
-    "text": "Accessing the Data\nOutpatient data is stored and accessible within several repositories across the NHS for use by approved analysts. One of the analysts will be available to discuss any potential analysis."
+    "text": "Accessing the Data\nOutpatient data is stored and accessible within several repositories across the NHS for use by approved analysts. One of the analysts will be available to discuss any potential analysis.",
+    "crumbs": [
+      "Activity",
+      "Outpatient Dataset"
+    ]
   },
   {
     "objectID": "pages/act_sus_opa.html#frequency-of-publishing",
     "href": "pages/act_sus_opa.html#frequency-of-publishing",
     "title": "Outpatient Dataset",
     "section": "Frequency of Publishing",
-    "text": "Frequency of Publishing\nOutpatients data is refreshed on a monthly basis usually with a two-month lag."
+    "text": "Frequency of Publishing\nOutpatients data is refreshed on a monthly basis usually with a two-month lag.",
+    "crumbs": [
+      "Activity",
+      "Outpatient Dataset"
+    ]
   },
   {
     "objectID": "pages/op_per.html",
     "href": "pages/op_per.html",
     "title": "Operational and Performance Data Sources",
     "section": "",
-    "text": "What topics are we interested in?\nUnderstanding operational and performance challenges is often at the heart of any transformation project. Therefore, data sources on operational and performance issues can provide helpful context and support the development of a case for change. Topics of interest include:\n\nUnderstanding the performance of A&E departments in achieving the four-hour standard. Monitoring and tracking performance against this standard over time.\nExploring elective waiting times and understanding how the backlog of elective care has changed since the pandemic.\n\nThis section provides information and links to operational and performance datasets that may be of use."
+    "text": "What topics are we interested in?\nUnderstanding operational and performance challenges is often at the heart of any transformation project. Therefore, data sources on operational and performance issues can provide helpful context and support the development of a case for change. Topics of interest include:\n\nUnderstanding the performance of A&E departments in achieving the four-hour standard. Monitoring and tracking performance against this standard over time.\nExploring elective waiting times and understanding how the backlog of elective care has changed since the pandemic.\n\nThis section provides information and links to operational and performance datasets that may be of use.",
+    "crumbs": [
+      "Operational & Performance"
+    ]
   },
   {
     "objectID": "pages/op_per_ae.html#publisher",
     "href": "pages/op_per_ae.html#publisher",
     "title": "A&E Performance",
     "section": "Publisher",
-    "text": "Publisher\nThe data is published by NHS England from submissions from each provider of Urgent and Emergency care to NHS patients.\n\n\n\n\n\n\nWarning\n\n\n\nBetween May 2019 and May 2023 fourteen NHS Trusts undertook field testing of new UEC performance metrics and stopped reporting information on four hour performance. More information about the impact of CRS is available here."
+    "text": "Publisher\nThe data is published by NHS England from submissions from each provider of Urgent and Emergency care to NHS patients.\n\n\n\n\n\n\nWarning\n\n\n\nBetween May 2019 and May 2023 fourteen NHS Trusts undertook field testing of new UEC performance metrics and stopped reporting information on four hour performance. More information about the impact of CRS is available here.",
+    "crumbs": [
+      "Operational & Performance",
+      "A&E Performance"
+    ]
   },
   {
     "objectID": "pages/op_per_ae.html#accessing-the-data",
     "href": "pages/op_per_ae.html#accessing-the-data",
     "title": "A&E Performance",
     "section": "Accessing the Data",
-    "text": "Accessing the Data\nThe datasets can be accessed via the NHS England Statistical Work Area site. The data is published in monthly files back to 2015-16.\n\n\n\n\n\n\nWarning\n\n\n\nPrior to the end of Q1 2015/16 this data was published on a weekly basis.\n\n\nIf you require time-series of A&E activity data spanning considerable months speak to one of the TU analysts about how this data can be extracted from another source. This is advisable rather than trying to stitch multiple Excel or csv files together."
+    "text": "Accessing the Data\nThe datasets can be accessed via the NHS England Statistical Work Area site. The data is published in monthly files back to 2015-16.\n\n\n\n\n\n\nWarning\n\n\n\nPrior to the end of Q1 2015/16 this data was published on a weekly basis.\n\n\nIf you require time-series of A&E activity data spanning considerable months speak to one of the TU analysts about how this data can be extracted from another source. This is advisable rather than trying to stitch multiple Excel or csv files together.",
+    "crumbs": [
+      "Operational & Performance",
+      "A&E Performance"
+    ]
   },
   {
     "objectID": "pages/op_per_ae.html#frequency-of-publishing",
     "href": "pages/op_per_ae.html#frequency-of-publishing",
     "title": "A&E Performance",
     "section": "Frequency of Publishing",
-    "text": "Frequency of Publishing\nData is published on a monthly basis typically on the 2nd Thursday of each month."
+    "text": "Frequency of Publishing\nData is published on a monthly basis typically on the 2nd Thursday of each month.",
+    "crumbs": [
+      "Operational & Performance",
+      "A&E Performance"
+    ]
   },
   {
     "objectID": "pages/op_per_can.html#publisher",
     "href": "pages/op_per_can.html#publisher",
     "title": "Cancer Waiting Times",
     "section": "Publisher",
-    "text": "Publisher\nThe data is published by NHS England with each provider of cancer services to NHS patients reporting."
+    "text": "Publisher\nThe data is published by NHS England with each provider of cancer services to NHS patients reporting.",
+    "crumbs": [
+      "Operational & Performance",
+      "Cancer Waiting Times"
+    ]
   },
   {
     "objectID": "pages/op_per_can.html#accessing-the-data",
     "href": "pages/op_per_can.html#accessing-the-data",
     "title": "Cancer Waiting Times",
     "section": "Accessing the Data",
-    "text": "Accessing the Data\nThe datasets can be accessed from the main Cancer Waiting Times page in the NHS England statistical work area. The data is published in files containing six-months of data. Older data relating to the old standards is available in financial year extracts to 2009/10.\nIf you require time-series of cancer waiting times spanning considerable months speak to one of the TU analysts about how this data can be extracted from another source. This is advisable rather than trying to stitch multiple Excel or csv files together."
+    "text": "Accessing the Data\nThe datasets can be accessed from the main Cancer Waiting Times page in the NHS England statistical work area. The data is published in files containing six-months of data. Older data relating to the old standards is available in financial year extracts to 2009/10.\nIf you require time-series of cancer waiting times spanning considerable months speak to one of the TU analysts about how this data can be extracted from another source. This is advisable rather than trying to stitch multiple Excel or csv files together.",
+    "crumbs": [
+      "Operational & Performance",
+      "Cancer Waiting Times"
+    ]
   },
   {
     "objectID": "pages/op_per_can.html#frequency-of-publishing",
     "href": "pages/op_per_can.html#frequency-of-publishing",
     "title": "Cancer Waiting Times",
     "section": "Frequency of Publishing",
-    "text": "Frequency of Publishing\nData is published on a monthly basis typically on the 2nd Thursday of each month."
+    "text": "Frequency of Publishing\nData is published on a monthly basis typically on the 2nd Thursday of each month.",
+    "crumbs": [
+      "Operational & Performance",
+      "Cancer Waiting Times"
+    ]
   },
   {
     "objectID": "pages/op_per_rtt.html#publisher",
     "href": "pages/op_per_rtt.html#publisher",
     "title": "Referral to Treatment Waiting Times",
     "section": "Publisher",
-    "text": "Publisher\nThe data is published by NHS England with each provider of NHS elective care submitting data to them."
+    "text": "Publisher\nThe data is published by NHS England with each provider of NHS elective care submitting data to them.",
+    "crumbs": [
+      "Operational & Performance",
+      "Referral to Treatment Waiting Times"
+    ]
   },
   {
     "objectID": "pages/op_per_rtt.html#accessing-the-data",
     "href": "pages/op_per_rtt.html#accessing-the-data",
     "title": "Referral to Treatment Waiting Times",
     "section": "Accessing the Data",
-    "text": "Accessing the Data\nThe datasets can be accessed from the main RTT page on the NHS England statistical work area. The data is published in monthly files with separate sub-pages for each financial year. Data is available on the NHS England website back to 2011/12 with previous years available through the national archives.\nIf you require time-series of RTT data spanning considerable months speak to one of the TU analysts about how this data can be extracted from another source. This is advisable rather than trying to stitch multiple Excel or csv files together."
+    "text": "Accessing the Data\nThe datasets can be accessed from the main RTT page on the NHS England statistical work area. The data is published in monthly files with separate sub-pages for each financial year. Data is available on the NHS England website back to 2011/12 with previous years available through the national archives.\nIf you require time-series of RTT data spanning considerable months speak to one of the TU analysts about how this data can be extracted from another source. This is advisable rather than trying to stitch multiple Excel or csv files together.",
+    "crumbs": [
+      "Operational & Performance",
+      "Referral to Treatment Waiting Times"
+    ]
   },
   {
     "objectID": "pages/op_per_rtt.html#frequency-of-publishing",
     "href": "pages/op_per_rtt.html#frequency-of-publishing",
     "title": "Referral to Treatment Waiting Times",
     "section": "Frequency of Publishing",
-    "text": "Frequency of Publishing\nData is published on a monthly basis typically on the 2nd Thursday of each month."
+    "text": "Frequency of Publishing\nData is published on a monthly basis typically on the 2nd Thursday of each month.",
+    "crumbs": [
+      "Operational & Performance",
+      "Referral to Treatment Waiting Times"
+    ]
   },
   {
     "objectID": "pages/phm.html",
     "href": "pages/phm.html",
     "title": "Population Health",
     "section": "",
-    "text": "What topics are we interested in?\nUnderstanding the health and the needs of wider populations is critical to planning the services required both now and in the future. There are a number of publicly available datasets that describe the health needs, outcomes and disparities across different populations and conditions. Topics of interest include:\n\nUnderstanding differences in mortality rates across England. What are the differences across regions? How has this changed over time? Are gaps widening in specific conditions such as Cancer?\nHow many patients are living with a condition such as Heart Failure or Atrial Fibrillation? How does this vary across different geographic areas and compare with admission rates?\nHow has the prevalence of dementia changed over recent years and are we diagnosing as many cases as expected? Are people living with Dementia having their care plan reviewed in a timely manner?"
+    "text": "What topics are we interested in?\nUnderstanding the health and the needs of wider populations is critical to planning the services required both now and in the future. There are a number of publicly available datasets that describe the health needs, outcomes and disparities across different populations and conditions. Topics of interest include:\n\nUnderstanding differences in mortality rates across England. What are the differences across regions? How has this changed over time? Are gaps widening in specific conditions such as Cancer?\nHow many patients are living with a condition such as Heart Failure or Atrial Fibrillation? How does this vary across different geographic areas and compare with admission rates?\nHow has the prevalence of dementia changed over recent years and are we diagnosing as many cases as expected? Are people living with Dementia having their care plan reviewed in a timely manner?",
+    "crumbs": [
+      "Population Health"
+    ]
   },
   {
     "objectID": "pages/phm_fingertips.html#publisher",
     "href": "pages/phm_fingertips.html#publisher",
     "title": "Fingertips",
     "section": "Publisher",
-    "text": "Publisher\nFingertips profiles are published by The Department of Health and Social Care. However, the profiles contain data from a wide variety of sources. You can find the specific publication details for each metric from the Definition option unde the Data view drop-down."
+    "text": "Publisher\nFingertips profiles are published by The Department of Health and Social Care. However, the profiles contain data from a wide variety of sources. You can find the specific publication details for each metric from the Definition option unde the Data view drop-down.",
+    "crumbs": [
+      "Population Health",
+      "Fingertips"
+    ]
   },
   {
     "objectID": "pages/phm_fingertips.html#accessing-the-data",
     "href": "pages/phm_fingertips.html#accessing-the-data",
     "title": "Fingertips",
     "section": "Accessing the Data",
-    "text": "Accessing the Data\nThe profiles can be accessed at here. Data can then be manually downloaded in a .csv format for individual indicators. There is also a Fingertips API for extracting data more efficiently in either JSON or CSV format. Of particular use is the R package - fingertipsR which can be used to access the data."
+    "text": "Accessing the Data\nThe profiles can be accessed at here. Data can then be manually downloaded in a .csv format for individual indicators. There is also a Fingertips API for extracting data more efficiently in either JSON or CSV format. Of particular use is the R package - fingertipsR which can be used to access the data.",
+    "crumbs": [
+      "Population Health",
+      "Fingertips"
+    ]
   },
   {
     "objectID": "pages/phm_fingertips.html#frequency-of-publishing",
     "href": "pages/phm_fingertips.html#frequency-of-publishing",
     "title": "Fingertips",
     "section": "Frequency of Publishing",
-    "text": "Frequency of Publishing\nThe profiles are refreshed when new data is available so are updated on a regular basis. However, some metrics, such as mortality or outcomes, may be published with significant lags."
+    "text": "Frequency of Publishing\nThe profiles are refreshed when new data is available so are updated on a regular basis. However, some metrics, such as mortality or outcomes, may be published with significant lags.",
+    "crumbs": [
+      "Population Health",
+      "Fingertips"
+    ]
   },
   {
     "objectID": "pages/phm_qof.html#publisher",
     "href": "pages/phm_qof.html#publisher",
     "title": "Quality Outcomes Framework (QOF)",
     "section": "Publisher",
-    "text": "Publisher\nNHS Digital (now part of NHS England) publishes QOF data following submissions by each GP Practice within England. More information on the publications can be found here."
+    "text": "Publisher\nNHS Digital (now part of NHS England) publishes QOF data following submissions by each GP Practice within England. More information on the publications can be found here.",
+    "crumbs": [
+      "Population Health",
+      "Quality Outcomes Framework (QOF)"
+    ]
   },
   {
     "objectID": "pages/phm_qof.html#accessing-the-data",
     "href": "pages/phm_qof.html#accessing-the-data",
     "title": "Quality Outcomes Framework (QOF)",
     "section": "Accessing the Data",
-    "text": "Accessing the Data\nThe data is publicly available on the NHS Digital website under the relevant year’s publication. Data for each year can be accessed here."
+    "text": "Accessing the Data\nThe data is publicly available on the NHS Digital website under the relevant year’s publication. Data for each year can be accessed here.",
+    "crumbs": [
+      "Population Health",
+      "Quality Outcomes Framework (QOF)"
+    ]
   },
   {
     "objectID": "pages/phm_qof.html#frequency-of-publishing",
     "href": "pages/phm_qof.html#frequency-of-publishing",
     "title": "Quality Outcomes Framework (QOF)",
     "section": "Frequency of Publishing",
-    "text": "Frequency of Publishing\nQOF data is published annually, typically in September/October for the previous financial year."
+    "text": "Frequency of Publishing\nQOF data is published annually, typically in September/October for the previous financial year.",
+    "crumbs": [
+      "Population Health",
+      "Quality Outcomes Framework (QOF)"
+    ]
   },
   {
     "objectID": "pages/pop_dem.html",
     "href": "pages/pop_dem.html",
     "title": "Population Demographics Data Sources",
     "section": "",
-    "text": "What topics are we interested in?\nPopulation demographic data is critical for understanding the populations health systems serve. Demographic data sources can provide contextual information on topics such as:\n\nThe age and gender make-up of areas across the country.\nProjections for how populations will grow and their make-up change in the future.\nHow does the provision of healthcare resources compare to where the populations who need these.\n\nTherefore, any transformation project will need to understand the population that is served and what is needed in the future. This section contains descriptions and links of the various demographic data sources that will be of use."
+    "text": "What topics are we interested in?\nPopulation demographic data is critical for understanding the populations health systems serve. Demographic data sources can provide contextual information on topics such as:\n\nThe age and gender make-up of areas across the country.\nProjections for how populations will grow and their make-up change in the future.\nHow does the provision of healthcare resources compare to where the populations who need these.\n\nTherefore, any transformation project will need to understand the population that is served and what is needed in the future. This section contains descriptions and links of the various demographic data sources that will be of use.",
+    "crumbs": [
+      "Population Demographics"
+    ]
   },
   {
     "objectID": "pages/pop_dem_est.html#publisher",
     "href": "pages/pop_dem_est.html#publisher",
     "title": "Population Estimates",
     "section": "Publisher",
-    "text": "Publisher\nData is published by Office for National Statistics (ONS)."
+    "text": "Publisher\nData is published by Office for National Statistics (ONS).",
+    "crumbs": [
+      "Population Demographics",
+      "Population Estimates"
+    ]
   },
   {
     "objectID": "pages/pop_dem_est.html#accessing-the-data",
     "href": "pages/pop_dem_est.html#accessing-the-data",
     "title": "Population Estimates",
     "section": "Accessing the Data",
-    "text": "Accessing the Data\nDatasets for different geographies can be accessed from the main page of the small area population estimates."
+    "text": "Accessing the Data\nDatasets for different geographies can be accessed from the main page of the small area population estimates.",
+    "crumbs": [
+      "Population Demographics",
+      "Population Estimates"
+    ]
   },
   {
     "objectID": "pages/pop_dem_est.html#frequency-of-publishing",
     "href": "pages/pop_dem_est.html#frequency-of-publishing",
     "title": "Population Estimates",
     "section": "Frequency of Publishing",
-    "text": "Frequency of Publishing\nThe data is published by ONS to their timescales. The latest version of the data was published in March 2024 with no date yet provided for the next publication."
+    "text": "Frequency of Publishing\nThe data is published by ONS to their timescales. The latest version of the data was published in March 2024 with no date yet provided for the next publication.",
+    "crumbs": [
+      "Population Demographics",
+      "Population Estimates"
+    ]
   },
   {
     "objectID": "pages/pop_dem_gro.html#publisher",
     "href": "pages/pop_dem_gro.html#publisher",
     "title": "Population Growth Projections",
     "section": "Publisher",
-    "text": "Publisher\nData is published by Office for National Statistics (ONS)."
+    "text": "Publisher\nData is published by Office for National Statistics (ONS).",
+    "crumbs": [
+      "Population Demographics",
+      "Population Growth Projections"
+    ]
   },
   {
     "objectID": "pages/pop_dem_gro.html#accessing-the-data",
     "href": "pages/pop_dem_gro.html#accessing-the-data",
     "title": "Population Growth Projections",
     "section": "Accessing the Data",
-    "text": "Accessing the Data\nDatasets can be accessed from the sub-national population projections site."
+    "text": "Accessing the Data\nDatasets can be accessed from the sub-national population projections site.",
+    "crumbs": [
+      "Population Demographics",
+      "Population Growth Projections"
+    ]
   },
   {
     "objectID": "pages/pop_dem_gro.html#frequency-of-publishing",
     "href": "pages/pop_dem_gro.html#frequency-of-publishing",
     "title": "Population Growth Projections",
     "section": "Frequency of Publishing",
-    "text": "Frequency of Publishing\nThe refreshing of projections is determined by ONS. The next release is scheduled for February to March 2025."
+    "text": "Frequency of Publishing\nThe refreshing of projections is determined by ONS. The next release is scheduled for February to March 2025.",
+    "crumbs": [
+      "Population Demographics",
+      "Population Growth Projections"
+    ]
+  },
+  {
+    "objectID": "pages/estates_eric.html#publisher",
+    "href": "pages/estates_eric.html#publisher",
+    "title": "Estates Return Information Collection",
+    "section": "Publisher",
+    "text": "Publisher\nData is published by NHS Digital.",
+    "crumbs": [
+      "NHS Estates",
+      "Estates Return Information Collection"
+    ]
+  },
+  {
+    "objectID": "pages/estates_eric.html#accessing-the-data",
+    "href": "pages/estates_eric.html#accessing-the-data",
+    "title": "Estates Return Information Collection",
+    "section": "Accessing the Data",
+    "text": "Accessing the Data\nThe latest and historic publications of the ERIC dataset can be found on the Estates Returns Information Collection page of NHS Digital.",
+    "crumbs": [
+      "NHS Estates",
+      "Estates Return Information Collection"
+    ]
+  },
+  {
+    "objectID": "pages/estates_eric.html#frequency-of-publishing",
+    "href": "pages/estates_eric.html#frequency-of-publishing",
+    "title": "Estates Return Information Collection",
+    "section": "Frequency of Publishing",
+    "text": "Frequency of Publishing\nThe data is published by NHS Digital annually. The data is in reference to a financial year and is typically available by the end of the subsequent Quarter 3.",
+    "crumbs": [
+      "NHS Estates",
+      "Estates Return Information Collection"
+    ]
+  },
+  {
+    "objectID": "pages/estates.html",
+    "href": "pages/estates.html",
+    "title": "Estates",
+    "section": "",
+    "text": "What topics are we interested in?\nThe quality, quantity and expanse of the estates owned by a provider is critical for understanding the financial pressures of running the space to deliver care. There is one publicly available dataset that describes the estates of providers, including investment to reduce infrastructure risks, cost of energy consumption, age of buildings and incidents related to infrastructure. Topics of interest include:\n\nHow many parking spaces does a site have? Are any of these charging points for electric vehicles? What is the charging cost to staff?\nWhich sites require the most investment to bring them up to standard? Can this cost be compared to the cost of a new building?",
+    "crumbs": [
+      "NHS Estates"
+    ]
   }
 ]
